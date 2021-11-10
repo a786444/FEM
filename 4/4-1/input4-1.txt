@@ -1,0 +1,23 @@
+*PARAMETER
+num-dim: 3
+*MATPROP
+b-plane-strain: 0
+young's-modulus: 30000000
+poisson's-ratio: 0.33
+*BOUNDARY:
+num-prescribed-load: 6
+trac_coor:
+21.0 0.0 6.0
+21.0 2.0 6.0
+21.0 4.0 6.0
+21.0 0.0 0.0
+21.0 2.0 0.0
+21.0 4.0 0.0
+trac:
+-44.444 0.0 0.0
+-44.444 0.0 0.0
+-44.444 0.0 0.0
+44.444 0.0 0.0
+44.444 0.0 0.0
+44.444 0.0 0.0 
+thickness: 1
